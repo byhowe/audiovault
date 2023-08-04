@@ -1,0 +1,18 @@
+[package]
+name = "audiovault"
+version = "0.1.0"
+authors = ["Ömer Faruk Çavuş"]
+edition = "2021"
+description = "Music server"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "audiovault"
+path = "src/main.rs"
+
+[lib]
+name = "audiovault"
+path = "src/lib.rs"
+
+[dependencies]
